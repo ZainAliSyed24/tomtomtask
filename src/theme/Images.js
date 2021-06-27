@@ -11,5 +11,7 @@ export default {
   // NAVIGATION
   // =============================================================================
   icBack: require('../assets/images/navigation/icBack.png'),
-  icMenu: require('../assets/images/navigation/icMenu.png')
+  icMenu: require('../assets/images/navigation/icMenu.png'),
+  img01: require('../assets/images/menu/img01.png'),
+  img02: require('../assets/images/menu/img02.png'),
 };

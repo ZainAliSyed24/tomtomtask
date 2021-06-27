@@ -8,7 +8,8 @@
 const primary = {
     theme: "#eeb924",
     black: "#000",
-    white: "#fff"
+    white: "#fff",
+    slate: '#454f63',
 };
 
 const secondary = {
@@ -16,7 +17,13 @@ const secondary = {
     gray: "#5f5f5f",
     xGray: "#919090"
 };
+
+const background = {
+    slate: primary.slate,
+}
+
 export default {
     primary,
-    secondary
+    secondary,
+    background
 };

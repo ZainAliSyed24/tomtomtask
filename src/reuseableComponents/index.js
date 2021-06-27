@@ -11,11 +11,16 @@ import AppButton from "./AppButton";
 import ImageButton from "./ImageButton";
 import TextField from "./TextField";
 import FlashMessage from "./FlashMessage";
+import FlatListHandler from "./FlatListHandler";
+// import Loader from './Loader';
+
 export {
     MaterialTextField,
     AppButton,
     ButtonView,
     ImageButton,
     TextField,
-    FlashMessage
+    FlashMessage,
+    FlatListHandler,
+    // Loader
 };
