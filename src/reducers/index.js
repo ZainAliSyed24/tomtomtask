@@ -15,12 +15,14 @@ import {
 	USER_LOCATION,
 	REAL_TIME_TRACKING,
 	LOGOUT,
-	SOCKET_DUMP
+	SOCKET_DUMP,
+	NEAR_BY_RESTAURANTS
 } from "../actions/ActionTypes";
 import userLocation from "../reducers/userLocation";
 const appReducer = combineReducers({
 	loginReducer: serviceReducer(LOGIN),
 	singupReducer: serviceReducer(SIGNUP),
+	nearByResturants: serviceReducer(NEAR_BY_RESTAURANTS),
 	userLocation
 });
 

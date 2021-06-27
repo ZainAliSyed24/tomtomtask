@@ -41,6 +41,7 @@ export const LOGIN = createRequestTypes("LOGIN");
 export const SIGNUP = createRequestTypes("SIGNUP");
 export const FORGOT_PASSWORD = createRequestTypes("FORGOT_PASSWORD");
 export const CHANGE_PASSWORD = createRequestTypes("CHANGE_PASSWORD");
+export const NEAR_BY_RESTAURANTS = createRequestTypes("NEAR_BY_RESTAURANTS");
 export const LOGOUT = "LOGOUT";
 //APP RELATED ACTIONS
 //ADD HERE
